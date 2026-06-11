@@ -32,7 +32,7 @@ python build.py
 ```text
 AWARE_RG/
 ├── Query/
-├── models_test/
+├── models/
 │   ├── FULL/
 │   │   ├── domain.pddl
 │   │   └── problem.pddl
