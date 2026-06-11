@@ -1,6 +1,6 @@
 # AWARE-RG: Abstraction-Aware Explanation of Resiliency Graphs
 
-AWARE-RG is a planning-based framework for analyzing Cyber-Physical System (CPS) attack-fault paths under security analyst-specific abstractions. It first generates an abstraction lattice from a FULL PDDL model, then uses that lattice to validate or diagnose stakeholder-provided attack paths.
+AWARE-RG is a planning-based framework for analyzing Cyber-Physical System (CPS) attack-fault paths under security analyst-specific abstractions. It first generates an abstraction lattice from a FULL PDDL model, then uses that lattice to validate or diagnose analyst-provided attack paths.
 
 ## Requirements
 
