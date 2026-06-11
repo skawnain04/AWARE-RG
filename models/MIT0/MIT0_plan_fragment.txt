@@ -1,0 +1,6 @@
+(access-thru-network internal-network)
+(access-thru-network plc-schneider-electric-modicon-m580)
+(exploits-vulnerability-cve-2019-6815 plc-schneider-electric-modicon-m580 plc-schneider-electric-modicon-m580)
+(causes-fault-pumping-phenomenon-due-to plc-schneider-electric-modicon-m580)
+(causes-fault-flame-detachment-due-to-pumping-phenomenon plc-schneider-electric-modicon-m580)
+; cost = 5 (unit cost)

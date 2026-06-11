@@ -1,0 +1,1868 @@
+{
+  "most_abstracted_node": "M_ABS",
+  "full_node": "FULL",
+  "concept_universe": [
+    "C1",
+    "C2",
+    "C6",
+    "C7",
+    "C11",
+    "C12"
+  ],
+  "high_level_concept_universe": [
+    "c1",
+    "c2",
+    "c6",
+    "c7",
+    "c11",
+    "c12"
+  ],
+  "concept_metadata": {
+    "C1": {
+      "low_level_concept": "C1",
+      "high_level_concept": "c1",
+      "mitre_attack_ics_tactic": "Initial Access",
+      "meaning": "The adversary is trying to get into the ICS environment."
+    },
+    "C2": {
+      "low_level_concept": "C2",
+      "high_level_concept": "c2",
+      "mitre_attack_ics_tactic": "Execution",
+      "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+    },
+    "C6": {
+      "low_level_concept": "C6",
+      "high_level_concept": "c6",
+      "mitre_attack_ics_tactic": "Discovery",
+      "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+    },
+    "C7": {
+      "low_level_concept": "C7",
+      "high_level_concept": "c7",
+      "mitre_attack_ics_tactic": "Lateral Movement",
+      "meaning": "The adversary is trying to move through the ICS environment."
+    },
+    "C11": {
+      "low_level_concept": "C11",
+      "high_level_concept": "c11",
+      "mitre_attack_ics_tactic": "Impair Process Control",
+      "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+    },
+    "C12": {
+      "low_level_concept": "C12",
+      "high_level_concept": "c12",
+      "mitre_attack_ics_tactic": "Impact",
+      "meaning": "The adversary is trying to cause a harmful operational, safety, or physical consequence."
+    }
+  },
+  "high_level_concept_metadata": {
+    "c1": {
+      "low_level_concept": "C1",
+      "high_level_concept": "c1",
+      "mitre_attack_ics_tactic": "Initial Access",
+      "meaning": "The adversary is trying to get into the ICS environment."
+    },
+    "c2": {
+      "low_level_concept": "C2",
+      "high_level_concept": "c2",
+      "mitre_attack_ics_tactic": "Execution",
+      "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+    },
+    "c6": {
+      "low_level_concept": "C6",
+      "high_level_concept": "c6",
+      "mitre_attack_ics_tactic": "Discovery",
+      "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+    },
+    "c7": {
+      "low_level_concept": "C7",
+      "high_level_concept": "c7",
+      "mitre_attack_ics_tactic": "Lateral Movement",
+      "meaning": "The adversary is trying to move through the ICS environment."
+    },
+    "c11": {
+      "low_level_concept": "C11",
+      "high_level_concept": "c11",
+      "mitre_attack_ics_tactic": "Impair Process Control",
+      "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+    },
+    "c12": {
+      "low_level_concept": "C12",
+      "high_level_concept": "c12",
+      "mitre_attack_ics_tactic": "Impact",
+      "meaning": "The adversary is trying to cause a harmful operational, safety, or physical consequence."
+    }
+  },
+  "nodes": {
+    "M_ABS": {
+      "domain": "model/M_ABS/domain.pddl",
+      "problem": "model/M_ABS/problem.pddl",
+      "node_type": "abstract",
+      "label": "C12",
+      "retained_low_level_concepts": [
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C11"
+      ]
+    },
+    "FULL": {
+      "domain": "model/FULL/domain.pddl",
+      "problem": "model/FULL/problem.pddl",
+      "node_type": "full",
+      "label": "Full Ground Truth Model",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": []
+    },
+    "MIT0": {
+      "domain": "model/MIT0/domain.pddl",
+      "problem": "model/MIT0/problem.pddl",
+      "node_type": "MIT",
+      "label": "C1, C2, C6, C7, C12",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C11"
+      ]
+    },
+    "MIT1": {
+      "domain": "model/MIT1/domain.pddl",
+      "problem": "model/MIT1/problem.pddl",
+      "node_type": "MIT",
+      "label": "C1, C2, C6, C12",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C7",
+        "C11"
+      ]
+    },
+    "MIT2": {
+      "domain": "model/MIT2/domain.pddl",
+      "problem": "model/MIT2/problem.pddl",
+      "node_type": "MIT",
+      "label": "C1, C2, C12",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C6",
+        "C7",
+        "C11"
+      ]
+    },
+    "MIT3": {
+      "domain": "model/MIT3/domain.pddl",
+      "problem": "model/MIT3/problem.pddl",
+      "node_type": "MIT",
+      "label": "C1, C12",
+      "retained_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C2",
+        "C6",
+        "C7",
+        "C11"
+      ]
+    },
+    "MOT0": {
+      "domain": "model/MOT0/domain.pddl",
+      "problem": "model/MOT0/problem.pddl",
+      "node_type": "MOT",
+      "label": "C2, C7, C11, C12",
+      "retained_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C1",
+        "C6"
+      ]
+    },
+    "MOT1": {
+      "domain": "model/MOT1/domain.pddl",
+      "problem": "model/MOT1/problem.pddl",
+      "node_type": "MOT",
+      "label": "C7, C11, C12",
+      "retained_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C1",
+        "C2",
+        "C6"
+      ]
+    },
+    "MOT2": {
+      "domain": "model/MOT2/domain.pddl",
+      "problem": "model/MOT2/problem.pddl",
+      "node_type": "MOT",
+      "label": "C11, C12",
+      "retained_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [],
+      "missing_low_level_concepts_from_full": [
+        "C1",
+        "C2",
+        "C6",
+        "C7"
+      ]
+    },
+    "MIT0-MOT0": {
+      "domain": "model/MIT0-MOT0/domain.pddl",
+      "problem": "model/MIT0-MOT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT0",
+      "target_node": "MOT0",
+      "label": "C1, C2, C6, C7, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT0-MOT1": {
+      "domain": "model/MIT0-MOT1/domain.pddl",
+      "problem": "model/MIT0-MOT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT0",
+      "target_node": "MOT1",
+      "label": "C1, C2, C6, C7, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT0-MOT2": {
+      "domain": "model/MIT0-MOT2/domain.pddl",
+      "problem": "model/MIT0-MOT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT0",
+      "target_node": "MOT2",
+      "label": "C1, C2, C6, C7, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT1-MOT0": {
+      "domain": "model/MIT1-MOT0/domain.pddl",
+      "problem": "model/MIT1-MOT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT1",
+      "target_node": "MOT0",
+      "label": "C1, C2, C6, C12; c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT1-MOT1": {
+      "domain": "model/MIT1-MOT1/domain.pddl",
+      "problem": "model/MIT1-MOT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT1",
+      "target_node": "MOT1",
+      "label": "C1, C2, C6, C12; c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT1-MOT2": {
+      "domain": "model/MIT1-MOT2/domain.pddl",
+      "problem": "model/MIT1-MOT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT1",
+      "target_node": "MOT2",
+      "label": "C1, C2, C6, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT2-MOT0": {
+      "domain": "model/MIT2-MOT0/domain.pddl",
+      "problem": "model/MIT2-MOT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT2",
+      "target_node": "MOT0",
+      "label": "C1, C2, C12; c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT2-MOT1": {
+      "domain": "model/MIT2-MOT1/domain.pddl",
+      "problem": "model/MIT2-MOT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT2",
+      "target_node": "MOT1",
+      "label": "C1, C2, C12; c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT2-MOT2": {
+      "domain": "model/MIT2-MOT2/domain.pddl",
+      "problem": "model/MIT2-MOT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT2",
+      "target_node": "MOT2",
+      "label": "C1, C2, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT3-MOT0": {
+      "domain": "model/MIT3-MOT0/domain.pddl",
+      "problem": "model/MIT3-MOT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT3",
+      "target_node": "MOT0",
+      "label": "C1, C12; c2, c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c2",
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C2",
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c2",
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        },
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT3-MOT1": {
+      "domain": "model/MIT3-MOT1/domain.pddl",
+      "problem": "model/MIT3-MOT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT3",
+      "target_node": "MOT1",
+      "label": "C1, C12; c7, c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        },
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MIT3-MOT2": {
+      "domain": "model/MIT3-MOT2/domain.pddl",
+      "problem": "model/MIT3-MOT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MIT3",
+      "target_node": "MOT2",
+      "label": "C1, C12; c11",
+      "retained_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c11"
+      ],
+      "source_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "high_level_concept_meanings": {
+        "c11": {
+          "low_level_concept": "C11",
+          "high_level_concept": "c11",
+          "mitre_attack_ics_tactic": "Impair Process Control",
+          "meaning": "The adversary is trying to disrupt, degrade, or manipulate control of the physical process."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT0-MIT0": {
+      "domain": "model/MOT0-MIT0/domain.pddl",
+      "problem": "model/MOT0-MIT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT0",
+      "target_node": "MIT0",
+      "label": "C2, C7, C11, C12; c1, c6",
+      "retained_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "source_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C6"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT1-MIT0": {
+      "domain": "model/MOT1-MIT0/domain.pddl",
+      "problem": "model/MOT1-MIT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT1",
+      "target_node": "MIT0",
+      "label": "C7, C11, C12; c1, c2, c6",
+      "retained_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "source_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT2-MIT0": {
+      "domain": "model/MOT2-MIT0/domain.pddl",
+      "problem": "model/MOT2-MIT0/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT2",
+      "target_node": "MIT0",
+      "label": "C11, C12; c1, c2, c6, c7",
+      "retained_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6",
+        "c7"
+      ],
+      "source_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C7",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6",
+        "C7"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6",
+        "c7"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        },
+        "c7": {
+          "low_level_concept": "C7",
+          "high_level_concept": "c7",
+          "mitre_attack_ics_tactic": "Lateral Movement",
+          "meaning": "The adversary is trying to move through the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT0-MIT1": {
+      "domain": "model/MOT0-MIT1/domain.pddl",
+      "problem": "model/MOT0-MIT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT0",
+      "target_node": "MIT1",
+      "label": "C2, C7, C11, C12; c1, c6",
+      "retained_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "source_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C6"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT1-MIT1": {
+      "domain": "model/MOT1-MIT1/domain.pddl",
+      "problem": "model/MOT1-MIT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT1",
+      "target_node": "MIT1",
+      "label": "C7, C11, C12; c1, c2, c6",
+      "retained_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "source_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT2-MIT1": {
+      "domain": "model/MOT2-MIT1/domain.pddl",
+      "problem": "model/MOT2-MIT1/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT2",
+      "target_node": "MIT1",
+      "label": "C11, C12; c1, c2, c6",
+      "retained_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "source_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C6",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        },
+        "c6": {
+          "low_level_concept": "C6",
+          "high_level_concept": "c6",
+          "mitre_attack_ics_tactic": "Discovery",
+          "meaning": "The adversary is locating information to assess and identify targets in the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT0-MIT2": {
+      "domain": "model/MOT0-MIT2/domain.pddl",
+      "problem": "model/MOT0-MIT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT0",
+      "target_node": "MIT2",
+      "label": "C2, C7, C11, C12; c1",
+      "retained_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1"
+      ],
+      "source_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT1-MIT2": {
+      "domain": "model/MOT1-MIT2/domain.pddl",
+      "problem": "model/MOT1-MIT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT1",
+      "target_node": "MIT2",
+      "label": "C7, C11, C12; c1, c2",
+      "retained_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "source_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT2-MIT2": {
+      "domain": "model/MOT2-MIT2/domain.pddl",
+      "problem": "model/MOT2-MIT2/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT2",
+      "target_node": "MIT2",
+      "label": "C11, C12; c1, c2",
+      "retained_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "source_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C2",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2"
+      ],
+      "added_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        },
+        "c2": {
+          "low_level_concept": "C2",
+          "high_level_concept": "c2",
+          "mitre_attack_ics_tactic": "Execution",
+          "meaning": "The adversary is trying to run code or manipulate system functions, parameters, and data in an unauthorized way."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT0-MIT3": {
+      "domain": "model/MOT0-MIT3/domain.pddl",
+      "problem": "model/MOT0-MIT3/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT0",
+      "target_node": "MIT3",
+      "label": "C2, C7, C11, C12; c1",
+      "retained_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1"
+      ],
+      "source_low_level_concepts": [
+        "C2",
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT1-MIT3": {
+      "domain": "model/MOT1-MIT3/domain.pddl",
+      "problem": "model/MOT1-MIT3/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT1",
+      "target_node": "MIT3",
+      "label": "C7, C11, C12; c1",
+      "retained_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1"
+      ],
+      "source_low_level_concepts": [
+        "C7",
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    },
+    "MOT2-MIT3": {
+      "domain": "model/MOT2-MIT3/domain.pddl",
+      "problem": "model/MOT2-MIT3/problem.pddl",
+      "node_type": "bridge",
+      "source_node": "MOT2",
+      "target_node": "MIT3",
+      "label": "C11, C12; c1",
+      "retained_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "retained_high_level_concepts": [
+        "c1"
+      ],
+      "source_low_level_concepts": [
+        "C11",
+        "C12"
+      ],
+      "target_low_level_concepts": [
+        "C1",
+        "C12"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "high_level_concept_meanings": {
+        "c1": {
+          "low_level_concept": "C1",
+          "high_level_concept": "c1",
+          "mitre_attack_ics_tactic": "Initial Access",
+          "meaning": "The adversary is trying to get into the ICS environment."
+        }
+      },
+      "explanation_rule": "This bridge node keeps the source node's low-level concepts and adds high-level concepts for the target node's low-level concepts that are missing from the source."
+    }
+  },
+  "edges": [
+    {
+      "from": "M_ABS",
+      "to": "MIT3",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C1"
+      ],
+      "label": "add C1"
+    },
+    {
+      "from": "MIT3",
+      "to": "MIT2",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C2"
+      ],
+      "label": "add C2"
+    },
+    {
+      "from": "MIT2",
+      "to": "MIT1",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C6"
+      ],
+      "label": "add C6"
+    },
+    {
+      "from": "MIT1",
+      "to": "MIT0",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C7"
+      ],
+      "label": "add C7"
+    },
+    {
+      "from": "MIT0",
+      "to": "FULL",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C11"
+      ],
+      "label": "add C11"
+    },
+    {
+      "from": "M_ABS",
+      "to": "MOT2",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C11"
+      ],
+      "label": "add C11"
+    },
+    {
+      "from": "MOT2",
+      "to": "MOT1",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C7"
+      ],
+      "label": "add C7"
+    },
+    {
+      "from": "MOT1",
+      "to": "MOT0",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C2"
+      ],
+      "label": "add C2"
+    },
+    {
+      "from": "MOT0",
+      "to": "FULL",
+      "edge_type": "refinement",
+      "added_low_level_concepts": [
+        "C1",
+        "C6"
+      ],
+      "label": "add C1, C6"
+    },
+    {
+      "from": "MIT0",
+      "to": "MIT0-MOT0",
+      "edge_type": "bridge",
+      "target_node": "MOT0",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MIT0",
+      "to": "MIT0-MOT1",
+      "edge_type": "bridge",
+      "target_node": "MOT1",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MIT0",
+      "to": "MIT0-MOT2",
+      "edge_type": "bridge",
+      "target_node": "MOT2",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MIT1",
+      "to": "MIT1-MOT0",
+      "edge_type": "bridge",
+      "target_node": "MOT0",
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "label": "add c7, c11"
+    },
+    {
+      "from": "MIT1",
+      "to": "MIT1-MOT1",
+      "edge_type": "bridge",
+      "target_node": "MOT1",
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "label": "add c7, c11"
+    },
+    {
+      "from": "MIT1",
+      "to": "MIT1-MOT2",
+      "edge_type": "bridge",
+      "target_node": "MOT2",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MIT2",
+      "to": "MIT2-MOT0",
+      "edge_type": "bridge",
+      "target_node": "MOT0",
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "label": "add c7, c11"
+    },
+    {
+      "from": "MIT2",
+      "to": "MIT2-MOT1",
+      "edge_type": "bridge",
+      "target_node": "MOT1",
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "label": "add c7, c11"
+    },
+    {
+      "from": "MIT2",
+      "to": "MIT2-MOT2",
+      "edge_type": "bridge",
+      "target_node": "MOT2",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MIT3",
+      "to": "MIT3-MOT0",
+      "edge_type": "bridge",
+      "target_node": "MOT0",
+      "added_high_level_concepts": [
+        "c2",
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C2",
+        "C7",
+        "C11"
+      ],
+      "label": "add c2, c7, c11"
+    },
+    {
+      "from": "MIT3",
+      "to": "MIT3-MOT1",
+      "edge_type": "bridge",
+      "target_node": "MOT1",
+      "added_high_level_concepts": [
+        "c7",
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C7",
+        "C11"
+      ],
+      "label": "add c7, c11"
+    },
+    {
+      "from": "MIT3",
+      "to": "MIT3-MOT2",
+      "edge_type": "bridge",
+      "target_node": "MOT2",
+      "added_high_level_concepts": [
+        "c11"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C11"
+      ],
+      "label": "add c11"
+    },
+    {
+      "from": "MOT0",
+      "to": "MOT0-MIT0",
+      "edge_type": "bridge",
+      "target_node": "MIT0",
+      "added_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C6"
+      ],
+      "label": "add c1, c6"
+    },
+    {
+      "from": "MOT1",
+      "to": "MOT1-MIT0",
+      "edge_type": "bridge",
+      "target_node": "MIT0",
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "label": "add c1, c2, c6"
+    },
+    {
+      "from": "MOT2",
+      "to": "MOT2-MIT0",
+      "edge_type": "bridge",
+      "target_node": "MIT0",
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6",
+        "c7"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6",
+        "C7"
+      ],
+      "label": "add c1, c2, c6, c7"
+    },
+    {
+      "from": "MOT0",
+      "to": "MOT0-MIT1",
+      "edge_type": "bridge",
+      "target_node": "MIT1",
+      "added_high_level_concepts": [
+        "c1",
+        "c6"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C6"
+      ],
+      "label": "add c1, c6"
+    },
+    {
+      "from": "MOT1",
+      "to": "MOT1-MIT1",
+      "edge_type": "bridge",
+      "target_node": "MIT1",
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "label": "add c1, c2, c6"
+    },
+    {
+      "from": "MOT2",
+      "to": "MOT2-MIT1",
+      "edge_type": "bridge",
+      "target_node": "MIT1",
+      "added_high_level_concepts": [
+        "c1",
+        "c2",
+        "c6"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2",
+        "C6"
+      ],
+      "label": "add c1, c2, c6"
+    },
+    {
+      "from": "MOT0",
+      "to": "MOT0-MIT2",
+      "edge_type": "bridge",
+      "target_node": "MIT2",
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "label": "add c1"
+    },
+    {
+      "from": "MOT1",
+      "to": "MOT1-MIT2",
+      "edge_type": "bridge",
+      "target_node": "MIT2",
+      "added_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2"
+      ],
+      "label": "add c1, c2"
+    },
+    {
+      "from": "MOT2",
+      "to": "MOT2-MIT2",
+      "edge_type": "bridge",
+      "target_node": "MIT2",
+      "added_high_level_concepts": [
+        "c1",
+        "c2"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1",
+        "C2"
+      ],
+      "label": "add c1, c2"
+    },
+    {
+      "from": "MOT0",
+      "to": "MOT0-MIT3",
+      "edge_type": "bridge",
+      "target_node": "MIT3",
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "label": "add c1"
+    },
+    {
+      "from": "MOT1",
+      "to": "MOT1-MIT3",
+      "edge_type": "bridge",
+      "target_node": "MIT3",
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "label": "add c1"
+    },
+    {
+      "from": "MOT2",
+      "to": "MOT2-MIT3",
+      "edge_type": "bridge",
+      "target_node": "MIT3",
+      "added_high_level_concepts": [
+        "c1"
+      ],
+      "missing_low_level_concepts_from_source": [
+        "C1"
+      ],
+      "label": "add c1"
+    }
+  ]
+}

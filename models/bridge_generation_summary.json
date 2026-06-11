@@ -1,0 +1,602 @@
+[
+  {
+    "node": "MIT0-MOT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT0-MOT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT0-MOT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT0-MOT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT1-MOT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT1-MOT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT1-MOT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT1-MOT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT2-MOT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT2-MOT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT2-MOT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT2-MOT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C2",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT3-MOT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c2",
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C2",
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT3-MOT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c7",
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C2",
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c12"
+    ]
+  },
+  {
+    "node": "MIT3-MOT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MIT3-MOT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C1",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c11"
+    ],
+    "removed_low_level_concepts": [
+      "C2",
+      "C6",
+      "C7",
+      "C11"
+    ],
+    "removed_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT0-MIT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C2",
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c6"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT1-MIT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT2-MIT0",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT0/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT0/problem.pddl",
+    "retained_low_level_concepts": [
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6",
+      "c7"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7"
+    ],
+    "removed_high_level_concepts": [
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT0-MIT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C2",
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c6"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT1-MIT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT2-MIT1",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT1/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT1/problem.pddl",
+    "retained_low_level_concepts": [
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2",
+      "c6"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7"
+    ],
+    "removed_high_level_concepts": [
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT0-MIT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C2",
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT1-MIT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT2-MIT2",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT2/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT2/problem.pddl",
+    "retained_low_level_concepts": [
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1",
+      "c2"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7"
+    ],
+    "removed_high_level_concepts": [
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT0-MIT3",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT3/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT0-MIT3/problem.pddl",
+    "retained_low_level_concepts": [
+      "C2",
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT1-MIT3",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT3/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT1-MIT3/problem.pddl",
+    "retained_low_level_concepts": [
+      "C7",
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  },
+  {
+    "node": "MOT2-MIT3",
+    "output_domain": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT3/domain.pddl",
+    "output_problem": "/content/drive/MyDrive/Colab Notebooks/EARG/models_test/MOT2-MIT3/problem.pddl",
+    "retained_low_level_concepts": [
+      "C11",
+      "C12"
+    ],
+    "retained_high_level_concepts": [
+      "c1"
+    ],
+    "removed_low_level_concepts": [
+      "C1",
+      "C2",
+      "C6",
+      "C7"
+    ],
+    "removed_high_level_concepts": [
+      "c2",
+      "c6",
+      "c7",
+      "c11",
+      "c12"
+    ]
+  }
+]

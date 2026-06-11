@@ -1,0 +1,5 @@
+(causes-fault-flame-detachment-due-to-windspeed-greater-than-120-km-per-hr_plc-yokogawa-stardom)
+(causes-fault-pilot-extinction-due-to-nitrogen-valve-open_plc-siemens-s7-300-or-400)
+(causes-fault-pilot-extinction-due-to-nitrogen-valve-open_plc-yokogawa-stardom)
+(causes-fault-flare-flameout_plc-yokogawa-stardom_plc-siemens-s7-300-or-400)
+; cost = 4 (unit cost)

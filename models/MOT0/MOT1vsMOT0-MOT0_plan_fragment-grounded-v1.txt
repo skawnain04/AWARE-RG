@@ -1,0 +1,6 @@
+(causes-fault-pilot-low-supply-pressure-due-to-manual-isolation-valve-close_plc-allen-bradley-micrologix-1100)
+(causes-fault-manual-isolation-valve-close-due-to-valve-blocked-close_plc-allen-brdley-controllogix)
+(causes-fault-pilot-low-supply-pressure-due-to-manual-isolation-valve-close_plc-allen-brdley-controllogix)
+(causes-fault-pilot-extinction-due-to-pilot-low-supply-pressure_plc-allen-brdley-controllogix)
+(causes-fault-flare-flameout_firewall-vpn_plc-allen-bradley-micrologix-1100)
+; cost = 5 (unit cost)

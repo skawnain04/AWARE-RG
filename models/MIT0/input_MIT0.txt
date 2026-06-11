@@ -1,0 +1,12 @@
+QUESTION:
+I already control the engineering workstations, I can access Microsoft-Windows-12-Server, I can pivot into internal-network, I know plc-Siemens-S7-300-or-400 is vulnerable to CVE-2016-8673, and I know plc-Schneider-Electric-Modicon-M580 is vulnerable to CVE-2019-6815. Why doesn’t exploiting those two PLCs let me cause flare flameout?
+
+STEPS:
+1) I start from the compromised engineering workstations.
+2) I move from the engineering workstations to Microsoft-Windows-12-Server.
+3) I exploit CVE-2019-0575 on the Windows server to gain access to internal-network.
+4) From internal-network, I target plc-Siemens-S7-300-or-400.
+5) I exploit CVE-2016-8673 on plc-Siemens-S7-300-or-400.
+6) From internal-network, I also target plc-Schneider-Electric-Modicon-M580.
+7) I exploit CVE-2019-6815 on plc-Schneider-Electric-Modicon-M580.
+8) I then expect those two compromised PLC paths together to cause flare flameout.

@@ -1,0 +1,11 @@
+QUESTION:
+I know plc-yokogawa-stardom is part of the flare-control path, and I know that if this PLC is disrupted it can create both a high-windspeed condition and a nitrogen-valve-open condition. Since those lead to flame detachment and pilot extinction, why wouldn’t that be enough to cause flare flameout?
+
+STEPS:
+1) I focus on plc-yokogawa-stardom as the control asset affecting the flare process.
+2) I assume the Yokogawa Stardom PLC is disrupted or compromised.
+3) I use that disrupted PLC state to create a windspeed greater than 120 km/h condition.
+4) I use that windspeed condition to cause flame detachment.
+5) I also use the disrupted PLC state to create a nitrogen valve open condition.
+5) I use that nitrogen-valve-open condition to cause pilot extinction.
+6) Since I now have both flame detachment and pilot extinction, I conclude flare flameout.

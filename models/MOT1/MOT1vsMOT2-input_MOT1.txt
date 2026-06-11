@@ -1,0 +1,10 @@
+QUESTION:
+I know that pumping phenomenon can cause flame detachment, and that manual isolation valve close can reduce pilot supply pressure and lead to pilot extinction. If both of those fault chains occur, can I conclude flare flameout?
+
+STEPS:
+1. I assume pumping phenomenon occurs.
+2. I use that to infer flame detachment.
+3. I also assume manual isolation valve close occurs.
+4. I use that to infer pilot low supply pressure.
+5. I use pilot low supply pressure to infer pilot extinction.
+6. Since I now have both flame detachment and pilot extinction, I conclude flare flameout.

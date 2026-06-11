@@ -1,0 +1,16 @@
+(define
+  (problem cascading-rg-problem)
+  (:domain cascading-rg)
+  (:objects microsoft-windows-12-server internal-network allen-bradley-controllogix-plc - node)
+  (:init
+    (has-connected microsoft-windows-12-server internal-network)
+    (has-connected internal-network allen-bradley-controllogix-plc)
+    (has-vulnerability-CVE-2019-0575 microsoft-windows-12-server)
+    (has-vulnerability-CVE-2019-0584 microsoft-windows-12-server)
+    (has-vulnerability-CVE-2018-0538 microsoft-windows-12-server)
+    (has-vulnerability-CVE-2018-0296 microsoft-windows-12-server)
+    (has-vulnerability-CVE-2017-9312 allen-bradley-controllogix-plc)
+    (has-exploit-improperly-implemented-fields-in-stack allen-bradley-controllogix-plc)
+  )
+  (:goal (and (has-fault-flare-flameout)))
+)

@@ -1,0 +1,11 @@
+(define
+  (problem cascading-rg-problem)
+  (:domain cascading-rg)
+  (:objects microsoft-windows-12-server internal-network allen-bradley-controllogix-plc - node)
+  (:init
+    (has-compromised-customer-pc)
+    (has-compromised-engineering-workstations)
+    (has-improper-vpn-firewall-configuration microsoft-windows-12-server)
+  )
+  (:goal (and (has-fault-flare-flameout)))
+)

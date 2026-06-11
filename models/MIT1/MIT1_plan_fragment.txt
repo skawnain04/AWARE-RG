@@ -1,0 +1,4 @@
+(access-to-windows-server-thru-engineering-workstations microsoft-windows-12-server)
+(access-thru-network internal-network)
+(access-thru-network plc-schneider-electric-modicon-m580)
+; cost = 3 (unit cost)

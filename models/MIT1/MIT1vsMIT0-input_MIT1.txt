@@ -1,0 +1,12 @@
+QUESTION:
+I already control the engineering workstations, I can access Microsoft-Windows-12-Server, I can move into internal-network, and I can reach plc-Schneider-Electric-Modicon-M580 through its PLC-facing service on 44818/TCP. Why can’t I use that access to compromise the M580, trigger pumping phenomenon, and eventually cause flare flameout?
+
+STEPS:
+1. I start from the compromised engineering workstations.
+2. I use them to access Microsoft-Windows-12-Server.
+3. From the Windows server, I move into internal-network.
+4. From the internal network, I reach plc-Schneider-Electric-Modicon-M580 on 44818/TCP.
+5. I assume that access to the exposed PLC-facing service is enough to compromise the M580.
+6. I expect the compromised M580 to create pumping phenomenon.
+7. I expect pumping phenomenon to cause flame detachment.
+8. I therefore conclude flare flameout.

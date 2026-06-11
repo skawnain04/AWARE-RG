@@ -1,0 +1,10 @@
+QUESTION:
+I already control the engineering workstations, I can access Microsoft-Windows-12-Server, I can move into the internal network, and I can reach plc-schneider-electric-modicon-m221 on 502/TCP. Why can’t I use that access to compromise the M221 and then cause flare flameout through plc-mitsubishi-melsec-q-series? 
+
+STEPS:
+1) I start from the compromised engineering workstations.
+2) I use that foothold to access Microsoft-Windows-12-Server.
+3) From the Windows server, I move into internal-network.
+4) From the internal network, I reach plc-schneider-electric-modicon-m221 on 502/TCP.
+5) I assume that exposed PLC-facing access on 502/TCP is enough to compromise the M221.
+6)I then expect that PLC attack path to let me cause flare flameout through plc-mitsubishi-melsec-q-series.

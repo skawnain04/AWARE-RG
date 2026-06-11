@@ -1,0 +1,9 @@
+QUESTION:
+I already control the customer PC and the engineering workstations, and I can access the Windows server. Why can’t I use that path to reach plc-yokogawa-stardom and cause flare flameout?
+
+STEPS:
+1) I start from the compromised customer PC and compromised engineering workstations.
+2) I use the engineering-workstation foothold to access Microsoft-Windows-12-Server.
+3) Since the Windows server is connected to the rest of the environment, I assume I can move from there toward plc-yokogawa-stardom.
+4) I assume I can attack or compromise plc-yokogawa-stardom.
+5) I expect that affecting plc-yokogawa-stardom will cause flare flameout.

@@ -1,0 +1,4 @@
+(exploits-vulnerability-cve-2016-8673_microsoft-windows-12-server_plc-yokogawa-stardom)
+(exploits-vulnerability-cve-2017-12089_microsoft-windows-12-server_plc-yokogawa-stardom)
+(causes-fault-flare-flameout_plc-yokogawa-stardom_microsoft-windows-12-server)
+; cost = 3 (unit cost)

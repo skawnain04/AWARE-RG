@@ -1,0 +1,10 @@
+QUESTION:
+I already control the engineering workstations, I can access the Windows server, I can move into the internal network, and I can reach PLC-facing services such as 1132/TCP, 22/TCP, 67/UDP, 8080/HTTP, 161/UDP, 80/443 TCP, 44818/TCP, 162/UDP, and 502/TCP. Why can’t I use that access to compromise a PLC and cause flare flameout?
+
+STEPS:
+1. I start from the compromised engineering workstations.
+2. I use them to access Microsoft-Windows-12-Server.
+3. From the Windows server, I move into internal-network.
+4. From the internal network, I reach a PLC-facing service such as 44818/TCP on plc-Schneider-Electric-Modicon-M580 or 8080/HTTP on plc-Siemens-S7-1200.
+5. I assume exposed PLC service access is enough to compromise the PLC.
+6. I expect the compromised PLC to cause flare flameout.

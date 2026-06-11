@@ -1,0 +1,15 @@
+QUESTION:
+I already control the engineering workstations, I can reach Microsoft-Windows-12-Server, I can pivot from that server into internal-network, and I know plc-Schneider-Electric-Modicon-M580 is reachable on 44818/TCP and is associated with CVE-2019-6815. Why doesn’t exploiting that path let me push the M580 into a state that causes pumping phenomenon, then flame detachment, and ultimately flare flameout?
+
+STEPS:
+1. I start from the compromised engineering workstations.
+2. I use the engineering-workstation foothold to access Microsoft-Windows-12-Server.
+3. From Microsoft-Windows-12-Server, I pivot into internal-network.
+4. From internal-network, I reach plc-Schneider-Electric-Modicon-M580 on 44818/TCP.
+5. I use CVE-2019-6815 against the M580 over that PLC-facing service.
+6. I treat the result as unauthorized modification of the M580.
+7. I treat that unauthorized modification as a loss of integrity in the PLC.
+8. I treat the loss of integrity as meaning the M580 is now compromised.
+9. I use the compromised M580 to create pumping phenomenon in the flare process.
+10. I use pumping phenomenon to cause flame detachment.
+11. Since flame detachment is a direct precursor to the hazard, I conclude flare flameout.

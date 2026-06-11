@@ -1,0 +1,9 @@
+QUESTION:
+I already control the customer PC and the engineering workstations, and I can access the Windows server. Why can’t I use that path to reach plc-Schneider-Electric-Modicon-M580 and cause flare flameout?
+
+STEPS:
+1.	I start from the compromised customer PC and compromised engineering workstations.
+2.	I use my engineering-workstation access to reach Microsoft-Windows-12-Server.
+3.	Since the Windows server is connected to the rest of the environment, I assume I can move from the Windows server toward internal-network.
+4.	From there, I assume I can reach plc-Schneider-Electric-Modicon-M580.
+5.	I assume attacking the M580 from that path is enough to make the flare go out.

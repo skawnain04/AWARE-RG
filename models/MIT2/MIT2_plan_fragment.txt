@@ -1,0 +1,2 @@
+(access-to-windows-server microsoft-windows-12-server)
+; cost = 1 (unit cost)
