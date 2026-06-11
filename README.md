@@ -1,16 +1,6 @@
 # AWARE-RG: Abstraction-Aware Explanation of Resiliency Graphs
 
-AWARE-RG is a planning-based framework for analyzing Cyber-Physical System (CPS) attack-fault paths under stakeholder-specific abstractions. It checks whether a proposed path is valid, diagnoses why it fails, and generates explanations using an abstraction lattice.
-
-## Input from Lattice Generation
-
-Before running AWARE-RG, first run the lattice-generation pipeline. Its final output is the bridge-node lattice JSON:
-
-```text
-lattice_output/eval_lattice_with_bridge_nodes.json
-```
-
-This file is used as the main lattice input for AWARE-RG. It must contain all node metadata, bridge nodes, edges, and valid paths to each node's `domain.pddl` and `problem.pddl`.
+AWARE-RG is a planning-based framework for analyzing Cyber-Physical System (CPS) attack-fault paths under stakeholder-specific abstractions. It first generates an abstraction lattice from a FULL PDDL model, then uses that lattice to validate or diagnose stakeholder-provided attack paths.
 
 ## Requirements
 
@@ -44,6 +34,8 @@ AWARE_RG/
 ├── Query/
 ├── models_test/
 │   ├── FULL/
+│   │   ├── domain.pddl
+│   │   └── problem.pddl
 │   ├── MIT0/
 │   ├── MIT1/
 │   ├── MOT0/
@@ -56,7 +48,52 @@ AWARE_RG/
 └── Experiment_Metrics/
 ```
 
-## Query Format
+## Step 1: Generate the AWARE-RG Lattice
+
+Run the lattice-generation notebook first.
+
+The lattice-generation pipeline:
+
+1. Reads the FULL PDDL model:
+
+```text
+models_test/FULL/domain.pddl
+models_test/FULL/problem.pddl
+```
+
+2. Extracts predicates from the FULL domain.
+
+3. Maps predicates to MITRE ATT&CK for ICS concepts.
+
+4. Builds MIT and MOT abstraction chains.
+
+5. Generates filtered PDDL models for each node:
+
+```text
+models_test/MIT0/domain.pddl
+models_test/MIT0/problem.pddl
+models_test/MOT2/domain.pddl
+models_test/MOT2/problem.pddl
+```
+
+6. Creates bridge nodes between IT and OT views:
+
+```text
+models_test/MIT3-MOT1/domain.pddl
+models_test/MIT3-MOT1/problem.pddl
+models_test/MOT2-MIT3/domain.pddl
+models_test/MOT2-MIT3/problem.pddl
+```
+
+7. Saves the final bridge-node lattice JSON:
+
+```text
+lattice_output/eval_lattice_with_bridge_nodes.json
+```
+
+This JSON is the main lattice input for AWARE-RG.
+
+## Step 2: Prepare a Query
 
 Each query must declare the stakeholder view as `IT` or `OT`.
 
@@ -76,7 +113,7 @@ Steps:
 7. Cause flare flameout.
 ```
 
-## Running the Code
+## Step 3: Run AWARE-RG Query Analysis
 
 Update the main paths:
 
@@ -114,11 +151,12 @@ Experiment_Metrics/earg_test_metrics.xlsx
 
 ## Notes
 
-- Run the lattice-generation code first.
-- Use `eval_lattice_with_bridge_nodes.json` as the AWARE-RG lattice input.
-- The stakeholder view must be explicitly declared in the query.
+- Run the lattice-generation notebook before the AWARE-RG query-analysis notebook.
+- Use `eval_lattice_with_bridge_nodes.json` as the lattice input.
+- The stakeholder view must be explicitly declared in each query.
 - All lattice nodes must point to valid `domain.pddl` and `problem.pddl` files.
 - Problem goals may be temporarily updated during execution and restored afterward.
+- The FULL model is the ground-truth reference model.
 
 ## Citation
 
