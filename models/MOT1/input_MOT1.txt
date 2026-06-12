@@ -1,9 +1,0 @@
-QUESTION:
-I know that nitrogen valve open can cause pilot extinction, and that windspeed greater than 120 km/h can cause flame detachment. If both of those fault chains occur, why wouldn’t that be enough to cause flare flameout?
-
-STEPS:
-1) I assume the flare system experiences nitrogen valve open.
-2) I use that to infer pilot extinction.
-3) I also assume the flare system experiences windspeed greater than 120 km/h.
-4) I use that to infer flame detachment.
-5) Since I now have both pilot extinction and flame detachment, I conclude flare flameout.

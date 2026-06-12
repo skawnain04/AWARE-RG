@@ -1,2 +1,0 @@
-(causes-fault-flare-flameout plc-yokogawa-stardom plc-yokogawa-stardom)
-; cost = 1 (unit cost)

@@ -1,8 +1,0 @@
-(exploits-vulnerability-cve-2018-0296 microsoft-windows-12-server internal-network)
-(access-to-plc-port-1132-tcp internal-network allen-bradley-controllogix-plc)
-(exploits-vulnerability-cve-2017-9312 internal-network allen-bradley-controllogix-plc)
-(causes-fault-valve-blocked-close allen-bradley-controllogix-plc)
-(causes-fault-manual-isolation-valve-close allen-bradley-controllogix-plc)
-(causes-fault-pilot-low-supply-pressure allen-bradley-controllogix-plc)
-(causes-fault-pilot-extinction allen-bradley-controllogix-plc)
-(causes-fault-flare-flameout allen-bradley-controllogix-plc)

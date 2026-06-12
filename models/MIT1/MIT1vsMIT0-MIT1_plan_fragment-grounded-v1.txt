@@ -1,7 +1,0 @@
-(access-to-windows-server-thru-engineering-workstations_microsoft-windows-12-server)
-(exploits-vulnerability-cve-2018-0538_internal-network_plc-schneider-electric-modicon-m580)
-(access-thru-network_plc-schneider-electric-modicon-m580)
-(causes-fault-pumping-phenomenon-due-to_plc-schneider-electric-modicon-m580)
-(causes-fault-flame-detachment-due-to-pumping-phenomenon_plc-schneider-electric-modicon-m580)
-(causes-fault-flare-flameout_firewall-vpn_plc-schneider-electric-modicon-m580)
-; cost = 6 (unit cost)

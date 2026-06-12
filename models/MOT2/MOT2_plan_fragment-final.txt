@@ -1,2 +1,0 @@
-(causes-fault-flare-flameout_firewall-vpn_plc-siemens-s7-300-or-400)
-; cost = 1 (unit cost)

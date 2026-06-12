@@ -1,2 +1,0 @@
-(causes-fault-flame-detachment-due-to-pumping-phenomenon plc-yokogawa-stardom)
-; cost = 1 (unit cost)

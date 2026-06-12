@@ -1,4 +1,0 @@
-(causes-fault-pilot-extinction-due-to-nitrogen-valve-open_internal-network)
-(causes-fault-flame-detachment-due-to-windspeed-greater-than-120-km-per-hr_internal-network)
-(causes-fault-flare-flameout_internal-network_plc-siemens-s7-300-or-400)
-; cost = 3 (unit cost)

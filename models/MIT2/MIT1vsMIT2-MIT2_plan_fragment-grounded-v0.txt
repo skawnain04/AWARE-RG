@@ -1,5 +1,0 @@
-(access-to-windows-server-thru-engineering-workstations_microsoft-windows-12-server)
-(causes-fault-defect-on-ignition-system-due-to-failure-on-ignition-system_microsoft-windows-12-server)
-(exploits-vulnerability-cve-2017-6032_plc-siemens-s7-300-or-400_microsoft-windows-12-server)
-(causes-fault-flare-flameout_plc-siemens-s7-300-or-400_microsoft-windows-12-server)
-; cost = 4 (unit cost)

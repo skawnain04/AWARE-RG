@@ -1,6 +1,0 @@
-has-compromised-customer-pc
-has-compromised-engineering-workstations
-has-connected
-has-access-to-windows-server
-has-fault-flare-flameout
-plc-compromised

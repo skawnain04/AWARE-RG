@@ -1,3 +1,0 @@
-has-fault-flare-flameout
-has-fault-flame-detachment-due-to-compromised
-has-fault-pilot-extinction-due-to-compromised

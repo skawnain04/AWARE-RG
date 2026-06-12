@@ -1,7 +1,0 @@
-QUESTION:
-I know that flare flameout happens when the flare system has both flame detachment and pilot extinction. If both of those conditions are present, shouldn’t that be enough to conclude flare flameout? 
-
-STEPS:
-1) I assume the flare system has flame detachment.
-2) I also assume the flare system has pilot extinction.
-3) Since both immediate precursor faults are present, I conclude flare flameout.

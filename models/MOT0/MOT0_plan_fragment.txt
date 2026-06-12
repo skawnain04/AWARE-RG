@@ -1,2 +1,0 @@
-(causes-plc-compromised-thru-offline plc-siemens-s7-1200)
-; cost = 1 (unit cost)

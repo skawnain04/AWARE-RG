@@ -1,2 +1,0 @@
-(causes-fault-flare-flameout_firewall-vpn_firewall-vpn)
-; cost = 1 (unit cost)

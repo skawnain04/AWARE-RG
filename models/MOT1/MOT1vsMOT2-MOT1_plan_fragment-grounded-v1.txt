@@ -1,5 +1,0 @@
-(causes-fault-flame-detachment-due-to-low-flow-gas-flaring_firewall-vpn)
-(causes-fault-pilot-low-supply-pressure-due-to-manual-isolation-valve-close_firewall-vpn)
-(causes-fault-pilot-extinction-due-to-pilot-low-supply-pressure_firewall-vpn)
-(causes-fault-flare-flameout_firewall-vpn_firewall-vpn)
-; cost = 4 (unit cost)

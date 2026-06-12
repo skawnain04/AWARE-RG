@@ -1,5 +1,0 @@
-(access-to-windows-server-thru-engineering-workstations_microsoft-windows-12-server)
-(exploits-vulnerability-cve-2016-8673_plc-schneider-electric-modicon-m580_plc-siemens-s7-300-or-400)
-(exploits-vulnerability-cve-2016-8673_internal-network_plc-siemens-s7-300-or-400)
-(causes-fault-flare-flameout_internal-network_plc-siemens-s7-300-or-400)
-; cost = 4 (unit cost)

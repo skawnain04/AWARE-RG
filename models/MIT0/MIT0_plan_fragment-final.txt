@@ -1,2 +1,0 @@
-(causes-fault-flare-flameout_plc-siemens-s7-300-or-400_plc-schneider-electric-modicon-m580)
-; cost = 1 (unit cost)

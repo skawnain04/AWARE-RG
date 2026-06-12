@@ -1,3 +1,0 @@
-(causes-fault-flame-detachment-due-to-low-flow-gas-flaring_plc-siemens-s7-300-or-400)
-(causes-fault-flare-flameout_firewall-vpn_plc-siemens-s7-300-or-400)
-; cost = 2 (unit cost)
