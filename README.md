@@ -57,8 +57,8 @@ The lattice-generation pipeline:
 1. Reads the FULL PDDL model:
 
 ```text
-models_test/FULL/domain.pddl
-models_test/FULL/problem.pddl
+models/FULL/domain.pddl
+models/FULL/problem.pddl
 ```
 
 2. Extracts predicates from the FULL domain.
@@ -70,19 +70,19 @@ models_test/FULL/problem.pddl
 5. Generates filtered PDDL models for each node:
 
 ```text
-models_test/MIT0/domain.pddl
-models_test/MIT0/problem.pddl
-models_test/MOT2/domain.pddl
-models_test/MOT2/problem.pddl
+models/MIT0/domain.pddl
+models/MIT0/problem.pddl
+models/MOT2/domain.pddl
+models/MOT2/problem.pddl
 ```
 
 6. Creates bridge nodes between IT and OT views:
 
 ```text
-models_test/MIT3-MOT1/domain.pddl
-models_test/MIT3-MOT1/problem.pddl
-models_test/MOT2-MIT3/domain.pddl
-models_test/MOT2-MIT3/problem.pddl
+models/MIT3-MOT1/domain.pddl
+models/MIT3-MOT1/problem.pddl
+models/MOT2-MIT3/domain.pddl
+models/MOT2-MIT3/problem.pddl
 ```
 
 7. Saves the final bridge-node lattice JSON:
