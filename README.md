@@ -162,4 +162,4 @@ Experiment_Metrics/earg_test_metrics.xlsx
 
 If you use this codebase, please cite:
 
-**AWARE-RG: Abstraction Aware Explanation of Resiliency Graphs for Cyber-Physical Systems**
+**AWARE-RG: Abstraction Aware Explanation of Resiliency Graphs**
